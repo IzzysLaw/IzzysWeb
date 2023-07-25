@@ -1,0 +1,23 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: monospace;
+    background-color: #eeebf0;
+    position: absolute;
+}
+.suggest-i{
+    width: 600px;
+    height: 1061px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: transparent url("https://s.cdpn.io/6859/suggest.png");
+}

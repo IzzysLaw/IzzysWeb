@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2e77d3afb9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+            <ol>
+                <li id="item" class="menu-item"><a href="water effect/home.html" class="link">Home</a></li>
+                <li id="item" class="menu-item"><a href="../about.html" class="link">About</a></li>
+                <li id="item" class="menu-item"><a href="https://georgia.gov/organization/georgia-senate" target="_blank" class="link">Contact</a>
+                </li>
+                <li id="item" class="menu-item"><a href="../thelaw/index.html" class="link">The Law</a></li>
+            </ol>
+        </ul>
+    </nav>
+
+    <div class="nav-wrapper">
+    </div>
+    <audio id="menu-item" preload="auto">
+        <source src="page.mp3">
+    </audio>
+
+    <div class="container">
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="tainer" id="blur">
+            <div class="content">
+                <h2>Two days will forever be the worst days of my life. June 14th - my son drowned while at swim class. He was found unresponsive in the deep end of the pool.</h2>
+                <a href="#" onclick="toggle()">Read More</a>
+            </div>
+        </div>
+        <div class="about" id="popup">
+            <p>Two days will forever be the worst days of my life. June 14th - my son drowned while at swim class. He was found unresponsive in the deep end of the pool. June 15th is when his heart stopped and didn’t start back. I remember the morning of June 14th, taking my healthy and happy 4-year-old to his swim class not knowing what was about to happen. I remember the feelings and thoughts after walking to the pool and finding him laying on the poolside unresponsive. Immediately, I wished I could have traded places with him. He didn’t deserve the neglect given by his swim instructor (no child does). I remember thinking what his final thoughts would have been: in his mind calling out to me or thinking any moment now I'll be saved by Mom.</p>
+            <a href="#" onclick="toggle()">Close</a>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $('.menu-toggle').click(function () {
+            $(".nav").toggleClass("mobile-nav");
+            $(this).toggleClass("is-active");
+        });
+
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

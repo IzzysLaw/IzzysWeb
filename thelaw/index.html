@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <nav class="menu">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav no-search">
+                <ol>
+                    <li id="item" class="menu-item"><a href="../water effect/home.html" class="link">Home</a></li>
+                    <li id="item" class="menu-item"><a href="../about.html" class="link">About</a></li>
+                    <li id="item" class="menu-item"><a href="https://georgia.gov/organization/georgia-senate" target="_blank" class="link">Contact</a>
+                    </li>
+                    <li id="item" class="menu-item"><a href="../thelaw/index.html" class="link">The Law</a></li>
+                </ol>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="./imgs/SB 1071024_1.png" alt="">
+            <img src="./imgs/SB 1071024_1.png" alt="">
+        </div>
+        <div class="column">
+            <img src="./imgs/SB 1071024_3.png" alt="">
+            <img src="./imgs/SB 1071024_4.png" alt="">
+        </div>
+    </div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $('.menu-toggle').click(function () {
+            $(".nav").toggleClass("mobile-nav");
+            $(this).toggleClass("is-active");
+        });
+    </script>
+</body>
+
+</html>
