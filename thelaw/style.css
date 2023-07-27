@@ -21,17 +21,7 @@ regular menu items
     color: #fff
 }
 
-.menu-item a::before {
-    /*dots*/
-    content: "";
-    display: block;
-    border-bottom: 1px dotted;
-    position: relative;
-    top: -3px;
-    flex: 1 1 auto;
-    margin: 01rem;
-    order: 0;
-}
+
 
 /*
 Sub menu & items
@@ -92,7 +82,7 @@ ol {
 }
 
 ol>li:before {
-    content: "§";
+    content: "";
     color: #fff;
 }
 
@@ -356,6 +346,10 @@ h2 {
 
 }
 
+.izzy {
+    width: 100%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -377,14 +371,30 @@ h2 {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+    .row {
+        position: relative;
+        bottom: 0px;
+    }
     .column {
         flex: 50%;
         max-width: 50%;
     }
 }
 
+@media screen and (max-width: 720px) {
+    .row {
+        position: relative;
+        bottom: 750px;
+    }
+    
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+    .row {
+        position: relative;
+        bottom: 450px;
+    }
     .column {
         flex: 100%;
         max-width: 100%;

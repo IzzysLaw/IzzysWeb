@@ -69,17 +69,7 @@ regular menu items
     color: #fff
 }
 
-.menu-item a::before {
-    /*dots*/
-    content: "";
-    display: block;
-    border-bottom: 1px dotted;
-    position: relative;
-    top: -3px;
-    flex: 1 1 auto;
-    margin: 01rem;
-    order: 0;
-}
+
 
 /*
 Sub menu & items
@@ -139,7 +129,7 @@ ol {
 }
 
 ol>li:before {
-    content: "§";
+    content: "";
     color: #fff;
 }
 
