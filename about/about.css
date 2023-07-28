@@ -389,4 +389,8 @@ body {
         width: 18px;
         margin: 0;
     }
+
+    #popup {
+        width: 450px;
+    }
 }

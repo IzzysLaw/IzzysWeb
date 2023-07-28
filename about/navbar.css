@@ -17,6 +17,11 @@ regular menu items
     color: gray;
 }
 
+.menu-item a:hover {
+    color: rgb(0, 170, 242);
+    transition: 1s
+}
+
 
 /*
 Sub menu & items
